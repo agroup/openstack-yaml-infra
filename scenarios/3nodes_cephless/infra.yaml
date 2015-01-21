@@ -16,6 +16,7 @@ profiles:
       1:
         roles:
           - cloud::database::sql
+          - cloud::messaging
       2:
         roles:
           - cloud::loadbalancer
@@ -48,3 +49,4 @@ serverspec:
   cloud::identity: identity
   cloud::install::puppetdb: puppetdb
   cloud::install::puppetmaster: puppetmaster
+  cloud::messaging: messaging
