@@ -30,6 +30,7 @@ profiles:
           - cloud::image::registry
           - cloud::object::controller
           - cloud::object::ringbuilder
+          - cloud::network::controller
       5:
         roles:
           - cloud::network::dhcp
